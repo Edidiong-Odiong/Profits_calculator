@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to left, #e3faaf,#17ee29);
+}
+#formDiv{
+    background: linear-gradient(to right, #e3faaf,#17ee29);
+    width: 65%;
+    height: 65%;
+    position: fixed;
+    top: 20%;
+    bottom: 20%;
+    left:17.5%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 1px;
+}
+#form{
+    position: fixed;
+    width: 50%;
+    left: 24%;
+    bottom: 30%;
+    top: 30%;
+}
+#contents{
+    position: fixed;
+    width: 25%;
+    top: 45%;
+    left: 35.7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input{
+    border-radius: 20px;
+    margin:1%;
+    padding-left: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 1px;
+    font-size: medium;
+}
+#button{
+    border-radius: 30px;
+    padding: 2%;
+    margin-top: 4%;
+    background-color: #17ee29;
+    border: 0px;
+    box-shadow: 1px 1px 3px 1px #e3faaf;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+#button:hover{
+    background-color: #e3faaf ;
+    box-shadow: 1px 1px 3px 1px #17ee29;
+}

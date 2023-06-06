@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profits_calculator">
+    <title>Profit</title>
+</head>
+<link rel="stylesheet" href="style_profit.css">
+<body>
+    <div id="formDiv">
+        <form id="form" method="post">
+            <div id="contents">
+                capital: <input class="input" type="number" id="capital"><br>
+                duration (days): <input class="input" type="number" id="duration"><br>
+                interest rate (per-day): <input class="input" type="number" id="interest"><br>
+                <button id="button" onclick="gain(document.getElementById('capital').value,document.getElementById('duration').value,document.getElementById('interest').value);">Calculate</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="profit_calculator.js">
+</script>
+</html>
