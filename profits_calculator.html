@@ -9,15 +9,18 @@
 </head>
 <link rel="stylesheet" href="style_profit.css">
 <body>
+    <header><h1 id="title">Profit Calculator</h1></header>
     <div id="formDiv">
         <form id="form" method="post">
             <div id="contents">
-                capital: <input class="input" type="number" id="capital"><br>
-                duration (days): <input class="input" type="number" id="duration"><br>
-                interest rate (per-day): <input class="input" type="number" id="interest"><br>
-                <button id="button" onclick="gain(document.getElementById('capital').value,document.getElementById('duration').value,document.getElementById('interest').value);">Calculate</button>
+                capital: <input class="input" type="number" id="capital" required><br>
+                duration: <input class="input" type="number" id="duration" required><br>
+                interest rate(%): <input class="input" type="number" id="interest" required><br>
+                <button type="button" id="button" onclick="gain(document.getElementById('capital').value,document.getElementById('duration').value,document.getElementById('interest').value);">Calculate</button>
             </div>
         </form>
+        <div id = "show">
+        </div>
     </div>
 </body>
 <script src="profit_calculator.js">

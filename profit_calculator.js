@@ -8,5 +8,5 @@ function gain(a,b,c){
         var capital =profit;
         var cycle = cycle + 1;
     };
-    document.write(`<h2 id="show">After ${duration} days, you will get ${capital}</h2><br><button id="refresh" onclick="window.location.reload()">Calculate again</button>`);
+    document.getElementById("show").innerHTML = `<h2 id="show">After ${duration} years, you will get $${capital}</h2><br><button id="refresh" onclick="window.location.reload()">Calculate again</button>`;
 }
