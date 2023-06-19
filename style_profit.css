@@ -1,9 +1,22 @@
 body{
-    background: linear-gradient(to left, #e3faaf,#17ee29);
+    background: linear-gradient(to left, #a8a8a8,#494b49);
     margin: 0px;
 }
 #formDiv{
-    background: linear-gradient(to right, #e3faaf,#17ee29);
+    background: linear-gradient(to right, #7e7d7d,#3b3d3b);
+    width: 65%;
+    height: 65%;
+    position: fixed;
+    top: 20%;
+    bottom: 20%;
+    left:17.5%;
+    border-radius: 20px;
+    /* box-shadow: 1px 1px 3px 1px; */
+    border: 1px solid rgb(68, 67, 67);
+    transition: 0.3s;
+}
+#formDiv:hover{
+    background: linear-gradient(to right, #a8a8a8,#494b49);
     width: 65%;
     height: 65%;
     position: fixed;
@@ -12,6 +25,7 @@ body{
     left:17.5%;
     border-radius: 20px;
     box-shadow: 1px 1px 3px 1px;
+    border: none;
 }
 #form{
     position: fixed;
@@ -29,6 +43,7 @@ body{
     /* hmm */
 }
 .input{
+    color: black;
     border-radius: 20px;
     margin:1%;
     padding-left: 3%;
@@ -45,25 +60,48 @@ body{
     top: 30%;
 }
 #button{
+    color: antiquewhite;
     border-radius: 30px;
     padding: 2%;
     margin-top: 4%;
-    background-color: #17ee29;
+    background-color:#494b49;
     border: 0px;
-    box-shadow: 1px 1px 3px 1px #e3faaf;
+    box-shadow: 1px 1px 3px 1px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
 }
 #button:hover{
-    background-color: #e3faaf ;
-    box-shadow: 1px 1px 3px 1px #17ee29;
+    background-color: #706e6e ;
+    box-shadow: 1px 1px 3px 1px black;
 }
 header{
-    background-color: #e3faaf ;
-    box-shadow: 1px 1px 3px 1px #17ee29;
+    color: antiquewhite;
+    background-color: #706e6e ;
+    box-shadow: 1px 1px 3px 1px #1d1f1d;
     border-radius: 0px 0px 60px 0px;
 }
 #title{
     padding: 5% 5% 5% 40%;
     margin: 0px;
+}
+#show{
+    color: rgb(0, 0, 0);
+}
+.screen{
+    background-color: antiquewhite;
+}
+.show_button{
+    color: antiquewhite;
+    border-radius: 30px;
+    padding: 2%;
+    margin-top: 4%;
+    background-color: #494b49;
+    border: 0px;
+    box-shadow: 1px 1px 3px 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.show_button:hover{
+    background-color: #a8a8a8 ;
+    box-shadow: 1px 1px 3px 1px black;
 }

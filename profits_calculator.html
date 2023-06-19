@@ -13,9 +13,9 @@
     <div id="formDiv">
         <form id="form" method="post">
             <div id="contents">
-                capital: <input class="input" type="number" id="capital" required><br>
-                duration: <input class="input" type="number" id="duration" required><br>
-                interest rate(%): <input class="input" type="number" id="interest" required><br>
+                capital: <input class="input" type="number" step= "any" id="capital" required><br>
+                duration: <input class="input" type="number" step="any" id="duration" required><br>
+                interest rate(%): <input class="input" type="number" step="any" id="interest" required><br>
                 <button type="button" id="button" onclick="gain(document.getElementById('capital').value,document.getElementById('duration').value,document.getElementById('interest').value);">Calculate</button>
             </div>
         </form>
