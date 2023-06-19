@@ -10,3 +10,4 @@ function gain(a,b,c){
     };
     document.getElementById("show").innerHTML = `<h2 id="show">After ${duration} years, you will get $${capital}</h2><br><button id="refresh" onclick="window.location.reload()">Calculate again</button>`;
 }
+// hmm
